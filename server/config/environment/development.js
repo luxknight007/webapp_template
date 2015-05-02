@@ -5,7 +5,7 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/myprofile-dev'
+    uri: 'mongodb://localhost/webapptemplate-dev'
   },
 
   seedDB: true
