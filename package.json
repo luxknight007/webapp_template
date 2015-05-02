@@ -1,0 +1,38 @@
+{
+  "name": "webapp_template",
+  "version": "1.0.0",
+  "description": "template for developing single page application MEAN Stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxknight007/webapp_template.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "template"
+  ],
+  "author": "Zoilo Dela Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxknight007/webapp_template/issues"
+  },
+  "homepage": "https://github.com/luxknight007/webapp_template#readme",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "compression": "^1.4.3",
+    "cookie-parser": "^1.3.4",
+    "ejs": "^2.3.1",
+    "errorhandler": "^1.3.5",
+    "express": "^4.12.3",
+    "lodash": "^3.8.0",
+    "method-override": "^2.3.2",
+    "morgan": "^1.5.2",
+    "passport": "^0.2.1",
+    "path": "file:../../../../usr/local/lib/node_modules/path",
+    "serve-favicon": "^2.2.0"
+  }
+}
