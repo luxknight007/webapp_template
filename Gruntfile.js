@@ -16,8 +16,8 @@ module.exports = function (grunt) {
     ngtemplates: 'grunt-angular-templates',
     cdnify: 'grunt-google-cdn',
     protractor: 'grunt-protractor-runner',
-    injector: 'grunt-asset-injector',
-    buildcontrol: 'grunt-build-control'
+    injector: 'grunt-asset-injector'
+    //buildcontrol: 'grunt-build-control'
   });
 
   // Time how long tasks take. Can help when optimizing build times
@@ -369,7 +369,7 @@ module.exports = function (grunt) {
       }
     },
 
-    buildcontrol: {
+    /*buildcontrol: {
       options: {
         dir: 'dist',
         commit: true,
@@ -389,7 +389,7 @@ module.exports = function (grunt) {
           branch: 'master'
         }
       }
-    },
+    },*/
 
     // Run some tasks in parallel to speed up the build process
     concurrent: {

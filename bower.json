@@ -1,6 +1,6 @@
 {
   "name": "webapp-template",
-  "version": "0.0.0",
+  "version": "1",
   "dependencies": {
     "angular": ">=1.2.*",
     "json3": "~3.3.1",
@@ -18,5 +18,15 @@
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
     "angular-scenario": ">=1.2.*"
-  }
+  },
+  "homepage": "https://github.com/luxknight007/webapp_template",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ]
 }
