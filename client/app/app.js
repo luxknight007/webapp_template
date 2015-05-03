@@ -5,7 +5,10 @@ angular.module('webappTemplateApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'angular-carousel',
+  'ngTouch',
+  'angular-carousel.shifty'
 ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
